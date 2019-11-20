@@ -11,7 +11,7 @@
 ## Installation
 
 ```
-npm install cloudinary --save
+npm install feathers-cloudinary --save
 ```
 
 ## Documentation
@@ -20,11 +20,11 @@ TBD
 
 ## Complete Example
 
-Here's an example of a Feathers server that uses `cloudinary`. 
+Here's an example of a Feathers server that uses `cloudinary`.
 
 ```js
-const feathers = require('@feathersjs/feathers');
-const plugin = require('cloudinary');
+const feathers = require("@feathersjs/feathers");
+const plugin = require("feathers-cloudinary");
 
 // Initialize the application
 const app = feathers();
