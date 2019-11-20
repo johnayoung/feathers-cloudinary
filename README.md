@@ -1,4 +1,4 @@
-# cloudinary
+# feathers-cloudinary
 
 [![Build Status](https://travis-ci.org/feathersjs/plugins.png?branch=master)](https://travis-ci.org/feathersjs/plugins)
 [![Code Climate](https://codeclimate.com/github/feathersjs/plugins/badges/gpa.svg)](https://codeclimate.com/github/feathersjs/plugins)
