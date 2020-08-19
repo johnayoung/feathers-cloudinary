@@ -1,7 +1,7 @@
 {
   "name": "feathers-cloudinary",
   "description": "A Feathers service for Cloudinary",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "homepage": "https://github.com/johnatspreadstreet/feathers-cloudinary",
   "main": "lib/",
   "keywords": [
