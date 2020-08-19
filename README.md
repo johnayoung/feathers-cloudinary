@@ -30,6 +30,10 @@ const app = feathers();
 app.configure(plugin());
 ```
 
+## Contributing
+
+Run `npm run release:<type>`
+
 ## License
 
 Copyright (c) 2018
