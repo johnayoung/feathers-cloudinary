@@ -1,12 +1,9 @@
 # feathers-cloudinary
 
 [![Build Status](https://travis-ci.org/feathersjs/plugins.png?branch=master)](https://travis-ci.org/feathersjs/plugins)
-[![Code Climate](https://codeclimate.com/github/feathersjs/plugins/badges/gpa.svg)](https://codeclimate.com/github/feathersjs/plugins)
-[![Test Coverage](https://codeclimate.com/github/feathersjs/plugins/badges/coverage.svg)](https://codeclimate.com/github/feathersjs/plugins/coverage)
-[![Dependency Status](https://img.shields.io/david/feathersjs/plugins.svg?style=flat-square)](https://david-dm.org/feathersjs/plugins)
-[![Download Status](https://img.shields.io/npm/dm/cloudinary.svg?style=flat-square)](https://www.npmjs.com/package/cloudinary)
+[![Download Status](https://img.shields.io/npm/dm/cloudinary.svg?style=flat-square)](https://www.npmjs.com/package/feathers-cloudinary)
 
-> Testing a description
+> **Unofficial** Feathers plugin service for Cloudinary
 
 ## Installation
 
