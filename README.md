@@ -21,13 +21,43 @@ Here's an example of a Feathers server that uses `cloudinary`.
 
 ```js
 const feathers = require("@feathersjs/feathers");
-const plugin = require("feathers-cloudinary");
 
 // Initialize the application
 const app = feathers();
+```
 
-// Initialize the plugin
-app.configure(plugin());
+in `upload.class.js`:
+
+```js
+/* eslint-disable no-unused-vars */
+const { Upload } = require('feathers-cloudinary');
+
+exports.Upload = Upload;
+```
+
+in `upload.service.js`:
+
+```js
+// Initializes the `upload` service on path `/upload`
+const { Upload } = require('./upload.class');
+const hooks = require('./upload.hooks');
+
+module.exports = function(app) {
+  const options = {
+    paginate: app.get('paginate'),
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET,
+  };
+
+  // Initialize our service with any options it requires
+  app.use('/upload', new Upload(options, app));
+
+  // Get our initialized service so that we can register hooks
+  const service = app.service('upload');
+
+  service.hooks(hooks);
+};
 ```
 
 ## Contributing
