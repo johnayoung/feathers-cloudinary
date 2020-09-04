@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.1.0](https://github.com/johnatspreadstreet/feathers-cloudinary/tree/v0.1.0) (2020-09-04)
+
+[Full Changelog](https://github.com/johnatspreadstreet/feathers-cloudinary/compare/v0.0.16...v0.1.0)
+
 ## [v0.0.16](https://github.com/johnatspreadstreet/feathers-cloudinary/tree/v0.0.16) (2020-08-19)
 
 [Full Changelog](https://github.com/johnatspreadstreet/feathers-cloudinary/compare/v0.0.15...v0.0.16)
